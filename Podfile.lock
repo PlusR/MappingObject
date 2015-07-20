@@ -1,0 +1,14 @@
+PODS:
+  - MappingObject (0.1.0)
+
+DEPENDENCIES:
+  - MappingObject (from `./`)
+
+EXTERNAL SOURCES:
+  MappingObject:
+    :path: ./
+
+SPEC CHECKSUMS:
+  MappingObject: 6b2400e6456d3888d0971b57c519ef514d167e41
+
+COCOAPODS: 0.37.2
