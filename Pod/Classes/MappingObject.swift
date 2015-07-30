@@ -8,7 +8,7 @@ public protocol MappingObject {
 }
 
 public extension MappingObject {
-    mutating func update(dictionary: [String : AnyObject]) {
+    public mutating func update(dictionary: [String : AnyObject]) {
         let valueTransformerNames = self.valueTransformerNames()
         for (oKey, dKey) in self.keyMap() {
             let dictionaryValue = dictionary[dKey];
@@ -30,7 +30,7 @@ public extension MappingObject {
             return value
         }
     }
-    func toDictionary() -> [String : AnyObject] {
+    public func toDictionary() -> [String : AnyObject] {
         var result = [String: AnyObject]()
         let valueTransformerNames = self.valueTransformerNames()
         for (oKey, dKey) in self.keyMap() {

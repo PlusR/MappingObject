@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5A0BD0D575E9F6C1A21CAFA7 /* Pods_MappingObject_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A105E4332FA36E1CD209F74 /* Pods_MappingObject_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		BED0B3BE1B68F7AC007301DA /* unit.plist in Resources */ = {isa = PBXBuildFile; fileRef = BED0B3BD1B68F7AC007301DA /* unit.plist */; };
+		BEF891521B5FB5EA0051E696 /* person.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEF891511B5FB5EA0051E696 /* person.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		A288CD5AD4D323CB5A14BBCA /* Pods-MappingObject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MappingObject_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MappingObject_Tests/Pods-MappingObject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB7AC55A61E66338B95B2001 /* MappingObject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = MappingObject.podspec; sourceTree = "<group>"; };
 		B7E4110D30A8063E118F02BE /* Pods_MappingObject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MappingObject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BED0B3BD1B68F7AC007301DA /* unit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = unit.plist; sourceTree = "<group>"; };
+		BEF891511B5FB5EA0051E696 /* person.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = person.plist; sourceTree = "<group>"; };
 		F8DCB2824B132347120BAF99 /* Pods-MappingObject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MappingObject_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MappingObject_Tests/Pods-MappingObject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACEA1AFB9204008FA782 /* Info.plist */,
+				BEF891511B5FB5EA0051E696 /* person.plist */,
+				BED0B3BD1B68F7AC007301DA /* unit.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED0B3BE1B68F7AC007301DA /* unit.plist in Resources */,
+				BEF891521B5FB5EA0051E696 /* person.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
